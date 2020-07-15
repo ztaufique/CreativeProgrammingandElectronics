@@ -1,4 +1,4 @@
-![](/July15/mazemain.png)
+![](/July15/cookiemain.png)
 ![](/July15/mazeimage.png)
 
 When completing this assignment, I was inspired by the computer games I used to play as a child. I wanted to build an interactive maze with shooted blocks and maze lines that were "dangerous" to touch. 
