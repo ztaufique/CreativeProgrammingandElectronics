@@ -1,2 +1,2 @@
-![](/July15/mazemain.png)
-![](/July15/mazeimage.png)
+![](/July15/recents/mazemain.png)
+![](/July15/recents/mazeimage.png)
