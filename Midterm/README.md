@@ -12,4 +12,6 @@ I had the most fun watching the game come together in general. After overcoming 
 ![](/Midterm/CookieCrazeMaze.png)
 ![](/Midterm/game.png)
 ![](/Midterm/wingame.png)
+You can see the cookie in the game (the cookie is added on through Processing). This is a direct image share of my drawing.
+
 ![](/Midterm/losegame.png)
