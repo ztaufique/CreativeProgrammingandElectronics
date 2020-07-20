@@ -9,7 +9,7 @@ I had the most fun watching the game come together in general. After overcoming 
 
 
 
-![](/CMidterm/CookieCrazeMaze.png)
+![](/Midterm/CookieCrazeMaze.png)
 ![](/Midterm/game.png)
 ![](/Midterm/wingame.png)
 ![](/Midterm/losegame.png)
