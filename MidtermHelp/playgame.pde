@@ -1,6 +1,6 @@
 color gray; // blue of the background
 color blue = color (#174883); // blue of the maze
-boolean backgroundcolor = false;
+boolean showimage = true;
 
 
 void playGame () { // game
@@ -39,9 +39,15 @@ void playGame () { // game
       closestY = y;    }
      }
 
-    if (worldRecord < 10) {  
-      gameState = "LOSE";
-    } 
+   // if (worldRecord < 10) {  
+    //  gameState = "LOSE";
+  //  } 
+   }
+// scoring the game
+
+}
+
+
 
 
 void maze () { // drawing the maze and creating the cursor
@@ -95,13 +101,59 @@ void maze () { // drawing the maze and creating the cursor
      line (500, 400, 500, 450);
      line (500, 340, 550, 340);
      line (500, 340, 500, 330);
-     // Cookie Image
      
-     cookie = loadImage ("desktop/Tutoring/CrazeMaze/cookie.png");
-       image (cookie, 425, 275, 50, 50);
 // cookie monster cursor   
     cookiemonster = loadImage ("desktop/Tutoring/CrazeMaze/cookiemonster.png");
      image (cookiemonster, mouseX, mouseY, 40, 40);
     
  
 }
+
+
+
+
+class cookies { //
+      float x, y, XSpeed, YSpeed;
+  
+      cookies (float xpos, float ypos) {
+        x = xpos;
+        y= ypos; 
+        XSpeed = Xspeed;
+        YSpeed = Yspeed;
+       }
+    void update () {
+        x += Xspeed;
+        y += Yspeed;
+     }
+    void cookieCollisions () { // checking for the wall
+        if ( (x < 200) || (x > 800)) {
+            Xspeed = -Xspeed;
+        }
+        if ( (y < 0) || (y > 600)) {
+          Yspeed = -Yspeed;
+        }
+    }
+    void cookieimage () { //drawing the box
+       cookie = loadImage ("desktop/Tutoring/CrazeMaze/cookie.png");
+     image (cookie, x, y, 20, 20);
+    }
+  }
+  cookies cookies0 = new cookies(350, 160);
+  cookies cookies1 = new cookies(450, 125);
+  cookies cookies2 = new cookies(500, 450);
+  cookies cookies3 = new cookies(375, 450);
+  cookies cookies4 = new cookies(550, 340);
+  cookies cookies5 = new cookies(650,200);
+  cookies cookies6 = new cookies(250,200);
+  cookies cookies7 = new cookies(350,300);
+  cookies cookies8 = new cookies(350,100);
+  cookies cookies9 = new cookies(575,375);
+  cookies cookies10 = new cookies(40, 400);
+  cookies cookies11 = new cookies(100, 550);
+  cookies cookies12 = new cookies(5, 375);
+  cookies cookies13 = new cookies(156, 250);
+  cookies cookies14 = new cookies(760, 560);
+  cookies cookies15 = new cookies(200, 200);
+  cookies cookies16 = new cookies(175, 350);
+  
+  
