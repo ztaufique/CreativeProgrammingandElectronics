@@ -1,11 +1,12 @@
 color gray; // blue of the background
-color blue; // blue of the maze
-boolean mouseOver = true;
+color blue = color (#174883); // blue of the maze
+boolean backgroundcolor = false;
 
 
 void playGame () { // game
     maze ();
    // initial color tracking for game winning and losing
+
     loadPixels();
     
     color trackColor;
@@ -32,23 +33,16 @@ void playGame () { // game
       
     float d = dist (r1, g1, b1, r2, g2, b2); // using distance formula to compare colors 
     
-    if (d > worldRecord) {
+    if (d < worldRecord) { // the game goest straight the the lose gameState at this point. How can I make it be directed by the mouse?
       d = worldRecord;
-     //closestX = x;
-      //closestY = y;    }
+      closestX = x;
+      closestY = y;    }
      }
-   }
+
     if (worldRecord < 10) {  
-     mouseMoved ();
-    }
-    
-}
-}
-    
-void mouseMoved (){
-  loadPixels () 
-  
-  }
+      gameState = "LOSE";
+    } 
+
 
 void maze () { // drawing the maze and creating the cursor
    strokeWeight (4);
