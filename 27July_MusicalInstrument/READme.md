@@ -4,6 +4,7 @@ Automating the servo and the piezo buzzer at the same time was the most challeng
 
 ![](/27July_MusicalInstrument/box2.jpeg)
 ![](/27July_MusicalInstrument/box3.jpeg)
+![](/27July_MusicalInstrument/schematicChristmasMusicBox.jpg)
 
 
 The link to my instrument being played https://youtu.be/HQavQHXJRCI. The working instrument uses one button, not two, but my videographer was not available for the second take.
