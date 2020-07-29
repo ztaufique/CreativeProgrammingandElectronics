@@ -1,4 +1,4 @@
-NOTE: I included the Arduino button in playGame2.pde file in the gameCode folder
+NOTE: I included the Arduino button in startGame2.pde file in the gameCode folder
 
 
 For this assignment, I used Arduino to improve my game state system from my midterm. Rather than pressing on the screen to restart the game, I used a button. When the button is pressed, the game reverts to the starting screen (the first image below), and the score resets. Also, in the Processing print section below, it writes that the game has restarted.
