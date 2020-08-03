@@ -15,3 +15,5 @@ What I will include:
    3. Some sort of tape or small plastic tube for the USD cable to feed through
    4. Motors to turn the shower on and off
    5. The "shower" app which is the Processing Window
+   
+The most difficult/challenging part of this project will be to determine the strength needed to move the shower knob and building the correct mechanism. 
