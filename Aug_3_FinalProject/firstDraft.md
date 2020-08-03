@@ -16,4 +16,4 @@ What I will include:
    4. Motors to turn the shower on and off
    5. The "shower" app which is the Processing Window
    
-The most difficult/challenging part of this project will be to determine the strength needed to move the shower knob and building the correct mechanism. 
+The most difficult/challenging part of this project will be to determine the strength needed to move the shower knob and building the correct mechanism. Also, connecting the piezzo buzzer to the Arduino after a certain number of minutes will be a bit tricky to implement.  
