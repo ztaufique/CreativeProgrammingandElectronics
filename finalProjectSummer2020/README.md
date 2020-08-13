@@ -1,7 +1,7 @@
 Final Project Video: https://youtu.be/C3pj2TU1Wu4
 
      In the United States, showering and bathing are the most significant indoor uses of water domestically at a whopping 
-     27%. Access to water is often taken granted, and the Earth's supply is rapidly dwindling. Knowing this and from 
+     27%. Access to water is often taken granted, and the Earth's supply of water is rapidly dwindling. Knowing this and from 
      observing my family's water habits, I decided to create a Smart Shower that tracks the amount of time you have to take 
      a shower. 
 
